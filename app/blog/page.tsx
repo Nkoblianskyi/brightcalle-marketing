@@ -1,6 +1,5 @@
 import BlogHero from "@/components/blog/BlogHero"
 import BlogFeatured from "@/components/blog/BlogFeatured"
-import BlogCategories from "@/components/blog/BlogCategories"
 import BlogGrid from "@/components/blog/BlogGrid"
 import BlogNewsletter from "@/components/blog/BlogNewsletter"
 
@@ -15,7 +14,6 @@ export default function BlogPage() {
     <>
       <BlogHero />
       <BlogFeatured />
-      <BlogCategories />
       <BlogGrid />
       <BlogNewsletter />
     </>
