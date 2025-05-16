@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "slug": "campaign-urban-billboards",
+    "title": "Campaña de Vallas Urbanas",
+    "client": "Empresa de Telecomunicaciones",
+    "category": "Publicidad Exterior",
+    "location": "Madrid Centro",
+    "date": "2025-03",
+    "description": "Desarrollamos una campaña integral de vallas publicitarias en ubicaciones estratégicas del centro de Madrid para el lanzamiento de un nuevo servicio de fibra óptica. La campaña incluyó 15 vallas de gran formato distribuidas en las principales arterias de la ciudad, logrando una alta visibilidad y reconocimiento de marca.",
+    "challenge": "El cliente necesitaba generar un alto impacto visual y notoriedad para su nuevo servicio en un mercado altamente competitivo, con un tiempo limitado de implementación.",
+    "solution": "Diseñamos una estrategia de ubicaciones premium en zonas de alto tráfico, combinando formatos tradicionales y digitales. Utilizamos un diseño visual impactante con colores vibrantes y mensajes directos que comunicaban claramente los beneficios del nuevo servicio.",
+    "results": "La campaña generó un aumento del 27% en las consultas sobre el nuevo servicio y un incremento del 18% en contrataciones durante el primer mes. El reconocimiento de marca aumentó en un 15% según estudios posteriores.",
+    "testimonial": "BrightCalle entendió perfectamente nuestras necesidades y desarrolló una campaña que superó nuestras expectativas en términos de visibilidad e impacto comercial.",
+    "image": "/1452c13d83791ba582801f21300f8154.jpg",
+    "gallery": [
+      "/1452c13d83791ba582801f21300f8154.jpg"
+
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "bus-branding-campaign",
+    "title": "Campaña de Branding en Autobuses",
+    "client": "Cadena de Restaurantes",
+    "category": "Transporte",
+    "location": "Madrid y alrededores",
+    "date": "2025-02",
+    "description": "Implementamos una campaña de branding integral en 25 autobuses urbanos de Madrid para promocionar la apertura de nuevos locales de una cadena de restaurantes. Los autobuses, completamente rotulados con el diseño de la marca, recorrieron las principales rutas de la ciudad durante tres meses.",
+    "challenge": "El cliente buscaba una forma innovadora de anunciar la apertura simultánea de 5 nuevos locales en diferentes zonas de Madrid, generando expectación y reconocimiento de marca.",
+    "solution": "Diseñamos una campaña de rotulación integral de autobuses que incluía tanto el exterior como el interior de los vehículos. Cada autobús representaba uno de los nuevos locales, con rutas estratégicamente seleccionadas para cubrir las zonas de influencia de cada restaurante.",
+    "results": "La campaña generó más de 10 millones de impactos durante su duración. La afluencia a los nuevos locales durante el primer mes superó en un 35% las previsiones iniciales, y las menciones en redes sociales aumentaron un 150%.",
+    "testimonial": "La creatividad y eficacia de BrightCalle Marketing convirtieron nuestra apertura en un evento memorable. Los autobuses se convirtieron en un tema de conversación en toda la ciudad.",
+    "image": "7a5d47d89a1816214393fa5fceed05d4.jpg",
+    "gallery": [
+      "7a5d47d89a1816214393fa5fceed05d4.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "metro-station-takeover",
+    "title": "Transformación Integral de Estación de Metro",
+    "client": "Plataforma de Streaming",
+    "category": "Publicidad Exterior",
+    "location": "Estación Sol, Madrid",
+    "date": "2025-04",
+    "description": "Realizamos una transformación completa de la estación de Sol en Madrid para el lanzamiento de una nueva serie de una plataforma de streaming. La intervención incluyó todos los espacios publicitarios disponibles, creando una experiencia inmersiva para los usuarios del metro.",
+    "challenge": "Generar expectación y notoriedad para el estreno de una nueva serie en un mercado saturado de contenidos, creando una experiencia memorable que invitara a los usuarios a ver la serie.",
+    "solution": "Diseñamos una intervención integral que convertía la estación en un escenario de la serie, utilizando vinilados en paredes, suelos y escaleras, mupis digitales interactivos, y una ambientación sonora especial. Incluimos códigos QR que permitían acceder a contenido exclusivo.",
+    "results": "La campaña generó más de 2 millones de interacciones en redes sociales y un aumento del 42% en las suscripciones a la plataforma durante la semana de estreno. La cobertura mediática valorada superó los 300.000€.",
+    "testimonial": "BrightCalle transformó nuestra visión creativa en una experiencia física impresionante. La estación se convirtió en una extensión perfecta de nuestra campaña de marketing.",
+    "image": "/a6952ef5d3999d48c33b18be7a23e7dc.jpg",
+    "gallery": [
+      "/a6952ef5d3999d48c33b18be7a23e7dc.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "retail-store-branding",
+    "title": "Branding Integral de Tienda",
+    "client": "Marca de Moda Sostenible",
+    "category": "Branding",
+    "location": "Calle Serrano, Madrid",
+    "date": "2025-01",
+    "description": "Desarrollamos el branding completo para la flagship store de una marca de moda sostenible en Madrid. El proyecto incluyó el diseño y producción de todos los elementos visuales, desde la fachada hasta la señalética interior, creando una experiencia de marca coherente y memorable.",
+    "challenge": "Crear un espacio que reflejara los valores de sostenibilidad y diseño contemporáneo de la marca, diferenciándose en una de las calles comerciales más exclusivas de Madrid.",
+    "solution": "Diseñamos un concepto basado en materiales reciclados y sostenibles, combinando elementos naturales con tecnología. La fachada incorporaba un jardín vertical y señalética fabricada con materiales reciclados, mientras que el interior utilizaba iluminación de bajo consumo y mobiliario de diseño sostenible.",
+    "results": "La tienda se convirtió en un referente de diseño sostenible, siendo destacada en varias publicaciones de arquitectura y diseño. El tráfico de clientes superó en un 40% las expectativas iniciales, y el tiempo medio de permanencia en tienda aumentó un 25%.",
+    "testimonial": "BrightCalle entendió perfectamente nuestra filosofía y la tradujo en un espacio que no solo vende productos, sino que comunica nuestros valores de forma auténtica y atractiva.",
+    "image": "/8a2ccbcaf3ebfeb320a674313cc29cda.jpg",
+    "gallery": [
+      "/8a2ccbcaf3ebfeb320a674313cc29cda.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "event-materials",
+    "title": "Materiales para Evento Corporativo",
+    "client": "Empresa Tecnológica",
+    "category": "Impresión",
+    "location": "IFEMA, Madrid",
+    "date": "2025-05",
+    "description": "Diseñamos y produjimos todos los materiales gráficos para un evento corporativo de lanzamiento de producto de una importante empresa tecnológica. El proyecto incluyó desde la señalética y decoración del espacio hasta los materiales promocionales para los asistentes.",
+    "challenge": "Crear una identidad visual coherente y de alto impacto para un evento con más de 500 asistentes, incluyendo prensa especializada e inversores, con un plazo de producción muy ajustado.",
+    "solution": "Desarrollamos un sistema visual flexible que se adaptaba a los diferentes formatos y necesidades del evento. Utilizamos tecnologías de impresión digital de última generación para garantizar la máxima calidad y rapidez en la producción de todos los materiales.",
+    "results": "El evento fue un éxito rotundo, con una valoración media de 4.8/5 por parte de los asistentes. La cobertura mediática superó las expectativas, y el 92% de los asistentes valoró positivamente la organización y los materiales del evento.",
+    "testimonial": "La calidad y puntualidad de BrightCalle fueron excepcionales. Su capacidad para entender nuestras necesidades y traducirlas en materiales de alta calidad fue clave para el éxito del evento.",
+    "image": "/283330390542728a72ebc1077e95da10.jpg",
+    "gallery": [
+      "/283330390542728a72ebc1077e95da10.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "taxi-advertising",
+    "title": "Campaña Publicitaria en Taxis",
+    "client": "Aplicación de Movilidad",
+    "category": "Transporte",
+    "location": "Madrid",
+    "date": "2025-02",
+    "description": "Implementamos una campaña publicitaria en 100 taxis de Madrid para promocionar el lanzamiento de una nueva aplicación de movilidad urbana. La campaña incluyó rotulación exterior e interior de los vehículos, así como material promocional para los pasajeros.",
+    "challenge": "Generar conocimiento y descargas de una nueva aplicación en un mercado altamente competitivo, conectando con usuarios potenciales durante sus desplazamientos urbanos.",
+    "solution": "Diseñamos una campaña integral que convertía los taxis en embajadores móviles de la aplicación. Cada taxi incluía códigos QR y promociones exclusivas para los pasajeros, incentivando la descarga inmediata. Los conductores fueron formados como prescriptores de la app.",
+    "results": "La campaña generó más de 15.000 descargas directas a través de los códigos QR específicos de la campaña. El reconocimiento de marca aumentó un 32% entre el público objetivo, y el coste por adquisición fue un 45% inferior a las campañas digitales paralelas.",
+    "testimonial": "La estrategia de BrightCalle fue brillante. Convirtieron un medio tradicional en una poderosa herramienta de adquisición de usuarios, con resultados medibles y un ROI excepcional.",
+    "image": "/644f8ef001d2277629184c6437c77462.jpg",
+    "gallery": [
+      "/644f8ef001d2277629184c6437c77462.jpg"
+    ]
+  }
+]

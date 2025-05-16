@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "slug": "outdoor-advertising",
+    "title": "Publicidad Exterior",
+    "shortDescription": "Vallas publicitarias, mupis y grandes formatos para maximizar la visibilidad de tu marca en entornos urbanos.",
+    "fullDescription": "Nuestra publicidad exterior está diseñada para captar la atención y generar un impacto duradero. Utilizamos ubicaciones estratégicas y formatos impactantes para garantizar que tu mensaje llegue a tu audiencia objetivo de manera efectiva.",
+    "benefits": [
+      "Alta visibilidad en zonas de gran tráfico",
+      "Impacto visual a gran escala",
+      "Presencia 24/7 en el entorno urbano",
+      "Alcance masivo a diversos segmentos de público",
+      "Formatos adaptados a diferentes presupuestos"
+    ],
+    "formats": [
+      "Vallas publicitarias estándar y digitales",
+      "Mupis y marquesinas",
+      "Lonas de gran formato",
+      "Mobiliario urbano",
+      "Pantallas LED"
+    ],
+    "icon": "/icons/billboard.svg",
+    "image": "/images/services/outdoor.jpg",
+    "gallery": ["/images/services/outdoor-1.jpg", "/images/services/outdoor-2.jpg", "/images/services/outdoor-3.jpg"]
+  },
+  {
+    "id": 2,
+    "slug": "branding",
+    "title": "Branding",
+    "shortDescription": "Creación y aplicación de identidad visual en espacios físicos para fortalecer el reconocimiento de marca.",
+    "fullDescription": "Transformamos espacios físicos en poderosas herramientas de comunicación de marca. Desde fachadas de tiendas hasta oficinas corporativas, creamos experiencias inmersivas que refuerzan la identidad de tu marca y generan conexiones emocionales con tu audiencia.",
+    "benefits": [
+      "Coherencia visual en todos los puntos de contacto",
+      "Experiencias inmersivas para clientes y empleados",
+      "Refuerzo de los valores y personalidad de marca",
+      "Diferenciación frente a la competencia",
+      "Mayor recordación y reconocimiento"
+    ],
+    "formats": [
+      "Rotulación de fachadas y escaparates",
+      "Señalética corporativa",
+      "Ambientación de espacios comerciales",
+      "Stands para ferias y eventos",
+      "Decoración de oficinas y espacios de trabajo"
+    ],
+    "icon": "/icons/branding.svg",
+    "image": "/images/services/branding.jpg",
+    "gallery": ["/images/services/branding-1.jpg", "/images/services/branding-2.jpg", "/images/services/branding-3.jpg"]
+  },
+  {
+    "id": 3,
+    "slug": "print",
+    "title": "Impresión",
+    "shortDescription": "Servicios de impresión de alta calidad para todo tipo de materiales promocionales y publicitarios.",
+    "fullDescription": "Ofrecemos soluciones de impresión de alta calidad para todos tus materiales promocionales. Utilizamos tecnología de vanguardia y materiales premium para garantizar resultados excepcionales que reflejen la calidad de tu marca.",
+    "benefits": [
+      "Calidad profesional en todos los materiales",
+      "Amplia variedad de soportes y acabados",
+      "Producción rápida y eficiente",
+      "Asesoramiento técnico especializado",
+      "Soluciones sostenibles disponibles"
+    ],
+    "formats": [
+      "Folletos, catálogos y revistas",
+      "Carteles y pósters",
+      "Tarjetas de visita y papelería corporativa",
+      "Packaging y etiquetas",
+      "Displays y materiales para punto de venta"
+    ],
+    "icon": "/icons/print.svg",
+    "image": "/images/services/print.jpg",
+    "gallery": ["/images/services/print-1.jpg", "/images/services/print-2.jpg", "/images/services/print-3.jpg"]
+  },
+  {
+    "id": 4,
+    "slug": "transport",
+    "title": "Campañas de Transporte",
+    "shortDescription": "Publicidad en autobuses, metro, taxis y otros medios de transporte para llegar a audiencias en movimiento.",
+    "fullDescription": "Convertimos los medios de transporte en poderosos vehículos publicitarios que llevan tu mensaje por toda la ciudad. Nuestras campañas de transporte ofrecen alta visibilidad y alcance, permitiéndote conectar con audiencias diversas en su día a día.",
+    "benefits": [
+      "Amplia cobertura geográfica",
+      "Exposición repetida a usuarios habituales",
+      "Formatos de gran tamaño y alto impacto",
+      "Segmentación por rutas y zonas",
+      "Combinación de interior y exterior para mayor efectividad"
+    ],
+    "formats": [
+      "Rotulación integral de autobuses",
+      "Vinilos en vagones de metro",
+      "Publicidad en taxis",
+      "Campañas en estaciones y andenes",
+      "Publicidad en bicicletas y patinetes compartidos"
+    ],
+    "icon": "/icons/transport.svg",
+    "image": "/images/services/transport.jpg",
+    "gallery": [
+      "/images/services/transport-1.jpg",
+      "/images/services/transport-2.jpg",
+      "/images/services/transport-3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "events",
+    "title": "Marketing de Eventos",
+    "shortDescription": "Diseño y producción de materiales para ferias, congresos y eventos corporativos.",
+    "fullDescription": "Creamos experiencias memorables en eventos que destacan tu marca y generan conexiones significativas con tu audiencia. Desde stands impactantes hasta activaciones innovadoras, diseñamos cada elemento para maximizar tu presencia y alcanzar tus objetivos de negocio.",
+    "benefits": [
+      "Experiencias inmersivas y memorables",
+      "Interacción directa con clientes potenciales",
+      "Generación de leads cualificados",
+      "Refuerzo de relaciones con clientes existentes",
+      "Oportunidades de networking y visibilidad sectorial"
+    ],
+    "formats": [
+      "Diseño y construcción de stands",
+      "Activaciones de marca",
+      "Material promocional personalizado",
+      "Señalética y decoración de espacios",
+      "Photocalls y zonas experienciales"
+    ],
+    "icon": "/icons/events.svg",
+    "image": "/images/services/events.jpg",
+    "gallery": ["/images/services/events-1.jpg", "/images/services/events-2.jpg", "/images/services/events-3.jpg"]
+  },
+  {
+    "id": 6,
+    "slug": "street-marketing",
+    "title": "Street Marketing",
+    "shortDescription": "Acciones promocionales innovadoras en espacios públicos para generar experiencias memorables.",
+    "fullDescription": "Llevamos tu marca a las calles con acciones innovadoras que sorprenden, entretienen y generan conversación. Nuestras campañas de street marketing crean experiencias únicas que conectan emocionalmente con tu audiencia y generan un impacto duradero.",
+    "benefits": [
+      "Alto impacto y diferenciación",
+      "Generación de publicity y viralidad",
+      "Interacción directa con el público objetivo",
+      "Experiencias memorables y compartibles",
+      "Flexibilidad y adaptación a diferentes presupuestos"
+    ],
+    "formats": [
+      "Intervenciones urbanas",
+      "Acciones con promotores",
+      "Instalaciones temporales",
+      "Flash mobs y performances",
+      "Sampling y activaciones de producto"
+    ],
+    "icon": "/icons/street.svg",
+    "image": "/images/services/street.jpg",
+    "gallery": ["/images/services/street-1.jpg", "/images/services/street-2.jpg", "/images/services/street-3.jpg"]
+  }
+]

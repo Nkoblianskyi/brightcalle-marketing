@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BrightCalle Marketing - Especialistas en publicidad exterior, branding y campañas de alto impacto en Madrid">
+    <title>BrightCalle Marketing | Publicidad Exterior en Madrid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary: #FFD100;
+            --secondary: #1A1A1A;
+            --accent: #FF6B00;
+            --light: #F5F5F5;
+            --dark: #333333;
+            --gray: #777777;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Header */
+        header {
+            background-color: var(--secondary);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .logo span {
+            color: white;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1519074069390-a3a1bcc40c2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding-top: 60px;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: var(--secondary);
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #e6bc00;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            margin-left: 1rem;
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary);
+            color: var(--secondary);
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary);
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background-color: var(--light);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .service-icon {
+            background-color: var(--primary);
+            color: var(--secondary);
+            font-size: 2rem;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .service-content {
+            padding: 1.5rem;
+        }
+        
+        .service-content h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        /* Portfolio Section */
+        .portfolio {
+            padding: 5rem 0;
+            background-color: var(--light);
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            height: 250px;
+        }
+        
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+        
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        
+        .portfolio-overlay h3 {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        
+        .portfolio-overlay p {
+            color: var(--primary);
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            padding: 5rem 0;
+            background-color: var(--secondary);
+            color: white;
+        }
+        
+        .testimonials .section-title h2 {
+            color: white;
+        }
+        
+        .testimonial-slider {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .testimonial {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .testimonial-text {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        .testimonial-text::before,
+        .testimonial-text::after {
+            content: '"';
+            font-size: 2rem;
+            color: var(--primary);
+        }
+        
+        .client-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .client-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: var(--secondary);
+        }
+        
+        .client-name {
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+        }
+        
+        .client-position {
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+        
+        .slider-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .slider-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            margin: 0 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .slider-dot.active {
+            background-color: var(--primary);
+            width: 25px;
+            border-radius: 10px;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 5rem 0;
+            background-color: white;
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-icon {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-right: 1rem;
+        }
+        
+        .contact-text h3 {
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-form {
+            background-color: var(--light);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--secondary);
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-col h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .footer-col h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: var(--primary);
+        }
+        
+        .footer-col p {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .social-links {
+            display: flex;
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 1rem;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--primary);
+            color: var(--secondary);
+            transform: translateY(-3px);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--secondary);
+                padding: 1rem 0;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                transition: clip-path 0.4s ease-in-out;
+            }
+            
+            nav.active {
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 1rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .btn {
+                display: block;
+                width: 80%;
+                margin: 0 auto 1rem;
+            }
+            
+            .btn-outline {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Bright<span>Calle</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container hero-content">
+            <h1>Transformamos espacios urbanos en oportunidades de marca</h1>
+            <p>Especialistas en publicidad exterior, branding y campañas de alto impacto en Madrid</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn">Solicitar Presupuesto</a>
+                <a href="#servicios" class="btn btn-outline">Nuestros Servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+                <p>Ofrecemos soluciones integrales de marketing offline para conectar tu marca con tu audiencia en el mundo real.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Publicidad Exterior</h3>
+                        <p>Vallas publicitarias, mupis y grandes formatos para maximizar la visibilidad de tu marca en entornos urbanos.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Branding</h3>
+                        <p>Creación y aplicación de identidad visual en espacios físicos para fortalecer el reconocimiento de marca.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Impresión</h3>
+                        <p>Servicios de impresión de alta calidad para todo tipo de materiales promocionales y publicitarios.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Campañas de Transporte</h3>
+                        <p>Publicidad en autobuses, metro, taxis y otros medios de transporte para llegar a audiencias en movimiento.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Marketing de Eventos</h3>
+                        <p>Diseño y producción de materiales para ferias, congresos y eventos corporativos.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-street-view"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Street Marketing</h3>
+                        <p>Acciones promocionales innovadoras en espacios públicos para generar experiencias memorables.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="proyectos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Proyectos</h2>
+                <p>Descubre algunos de nuestros trabajos más destacados en publicidad exterior y marketing offline.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1561898329-9ad7d76fbb2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Campaña de Vallas Urbanas">
+                    <div class="portfolio-overlay">
+                        <h3>Campaña de Vallas Urbanas</h3>
+                        <p>Empresa de Telecomunicaciones</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1494412519320-aa613df615a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Branding en Autobuses">
+                    <div class="portfolio-overlay">
+                        <h3>Campaña de Branding en Autobuses</h3>
+                        <p>Cadena de Restaurantes</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1556139954-ec19cce61d61?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Transformación de Estación de Metro">
+                    <div class="portfolio-overlay">
+                        <h3>Transformación Integral de Estación de Metro</h3>
+                        <p>Plataforma de Streaming</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1551446591-142875a901a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Branding Integral de Tienda">
+                    <div class="portfolio-overlay">
+                        <h3>Branding Integral de Tienda</h3>
+                        <p>Marca de Moda Sostenible</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Materiales para Evento Corporativo">
+                    <div class="portfolio-overlay">
+                        <h3>Materiales para Evento Corporativo</h3>
+                        <p>Empresa Tecnológica</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1519619091416-f5d7e5200702?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Campaña Publicitaria en Taxis">
+                    <div class="portfolio-overlay">
+                        <h3>Campaña Publicitaria en Taxis</h3>
+                        <p>Aplicación de Movilidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lo Que Dicen Nuestros Clientes</h2>
+                <p>Testimonios de quienes han confiado en nosotros para sus campañas de marketing offline.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active" id="testimonial1">
+                    <div class="testimonial-text">
+                        BrightCalle transformó nuestra visión en una campaña que superó todas nuestras expectativas. Su enfoque estratégico y creatividad nos ayudaron a destacar en un mercado altamente competitivo.
+                    </div>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-name">María González</div>
+                        <div class="client-position">Directora de Marketing, Empresa de Telecomunicaciones</div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial2" style="display: none;">
+                    <div class="testimonial-text">
+                        La capacidad de BrightCalle para integrar elementos físicos y digitales en una experiencia coherente fue clave para el éxito de nuestra campaña de lanzamiento. Los resultados superaron nuestras expectativas más optimistas.
+                    </div>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-name">Javier Rodríguez</div>
+                        <div class="client-position">CEO, Startup de Tecnología</div>
+                    </div>
+                </div>
+                <div class="testimonial" id="testimonial3" style="display: none;">
+                    <div class="testimonial-text">
+                        Valoramos especialmente su compromiso con la sostenibilidad y su capacidad para implementar soluciones eco-friendly sin comprometer el impacto visual de nuestras campañas. Un socio estratégico en quien confiar.
+                    </div>
+                    <div class="client-info">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-name">Ana Martínez</div>
+                        <div class="client-position">Directora de Comunicación, Cadena de Retail</div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="slider-dot active" data-testimonial="testimonial1"></div>
+                    <div class="slider-dot" data-testimonial="testimonial2"></div>
+                    <div class="slider-dot" data-testimonial="testimonial3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+                <p>¿Listo para destacar en el entorno urbano? Contacta con nosotros y descubre cómo podemos ayudarte.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Dirección</h3>
+                            <p>Calle de Serrano, 55, 28006 Madrid, España</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Teléfono</h3>
+                            <p>+34 692 183 305</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>info@brightcallemarketing.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Horario</h3>
+                            <p>Lunes a Viernes: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>BrightCalle Marketing</h3>
+                    <p>Especialistas en publicidad exterior, branding, impresión y campañas de transporte en Madrid, España.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Publicidad Exterior</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Impresión</a></li>
+                        <li><a href="#">Campañas de Transporte</a></li>
+                        <li><a href="#">Marketing de Eventos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Suscríbete para recibir nuestras últimas noticias y ofertas.</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Tu email" class="form-control" required>
+                        <button type="submit" class="btn">Suscribir</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BrightCalle Marketing. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                mainNav.classList.remove('active');
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Testimonial Slider
+        const testimonials = document.querySelectorAll('.testimonial');
+        const dots = document.querySelectorAll('.slider-dot');
+        
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const targetId = dot.getAttribute('data-testimonial');
+                
+                // Hide all testimonials and remove active class from dots
+                testimonials.forEach(testimonial => {
+                    testimonial.style.display = 'none';
+                });
+                dots.forEach(d => {
+                    d.classList.remove('active');
+                });
+                
+                // Show target testimonial and add active class to clicked dot
+                document.getElementById(targetId).style.display = 'block';
+                dot.classList.add('active');
+            });
+        });
+        
+        // Form Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Here you would normally send the form data to your server
+            // For this example, we'll just show an alert
+            
+            alert('¡Gracias por tu mensaje! Te contactaremos pronto.');
+            contactForm.reset();
+        });
+    </script>
+</body>
+</html>

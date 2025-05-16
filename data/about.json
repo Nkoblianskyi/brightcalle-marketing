@@ -1,0 +1,92 @@
+{
+  "mission": "Transformar espacios urbanos en poderosas herramientas de comunicación para marcas que buscan destacar en el mundo físico.",
+  "vision": "Ser la agencia de referencia en marketing offline en España, reconocida por nuestra creatividad, efectividad y compromiso con la sostenibilidad.",
+  "history": {
+    "foundation": "BrightCalle Marketing fue fundada en 2020 por un equipo de profesionales con amplia experiencia en publicidad exterior y marketing urbano. Desde nuestros inicios, nos hemos centrado en combinar la potencia del impacto físico con las posibilidades de la tecnología digital.",
+    "growth": "En los últimos años, hemos experimentado un crecimiento constante, ampliando nuestro equipo y cartera de servicios para ofrecer soluciones integrales de marketing offline a clientes de diversos sectores.",
+    "present": "Actualmente, contamos con un equipo multidisciplinar de más de 25 profesionales especializados en diferentes áreas del marketing offline, desde diseño creativo hasta implementación técnica y análisis de resultados."
+  },
+  "values": [
+    {
+      "title": "Creatividad",
+      "description": "Buscamos constantemente ideas innovadoras que rompan la monotonía del entorno urbano y capturen la atención del público."
+    },
+    {
+      "title": "Efectividad",
+      "description": "Nos centramos en crear campañas que no solo impacten visualmente, sino que generen resultados tangibles para nuestros clientes."
+    },
+    {
+      "title": "Sostenibilidad",
+      "description": "Estamos comprometidos con la implementación de soluciones respetuosas con el medio ambiente, utilizando materiales sostenibles y prácticas responsables."
+    },
+    {
+      "title": "Colaboración",
+      "description": "Trabajamos estrechamente con nuestros clientes, construyendo relaciones de confianza basadas en la transparencia y la comunicación abierta."
+    },
+    {
+      "title": "Innovación",
+      "description": "Nos mantenemos a la vanguardia de las tendencias y tecnologías, integrando soluciones digitales que potencian el impacto de la publicidad física."
+    }
+  ],
+  "approach": {
+    "title": "Nuestro Enfoque",
+    "description": "En BrightCalle Marketing, creemos que la publicidad exterior sigue siendo una de las formas más poderosas de conectar con las audiencias en el mundo real. Nuestro enfoque se basa en tres pilares fundamentales:",
+    "pillars": [
+      {
+        "title": "Estrategia Basada en Datos",
+        "description": "Utilizamos análisis de flujos de tráfico, demografía y comportamiento para identificar las ubicaciones y formatos óptimos para cada campaña."
+      },
+      {
+        "title": "Creatividad Impactante",
+        "description": "Desarrollamos conceptos visuales que destacan en el entorno urbano y generan una conexión emocional con la audiencia."
+      },
+      {
+        "title": "Integración Omnicanal",
+        "description": "Diseñamos campañas que integran perfectamente elementos físicos y digitales, creando experiencias coherentes y complementarias."
+      }
+    ]
+  },
+  "team": [
+    {
+      "name": "Miguel Ángel Fernández",
+      "position": "Director General",
+      "bio": "Con más de 15 años de experiencia en el sector publicitario, Miguel Ángel ha liderado campañas premiadas para marcas nacionales e internacionales. Su visión estratégica y pasión por la innovación son el motor de BrightCalle.",
+      "image": "/images/team/miguel-angel.jpg"
+    },
+    {
+      "name": "María Rodríguez",
+      "position": "Directora Creativa",
+      "bio": "María combina su formación en Bellas Artes con un profundo conocimiento del marketing urbano. Su capacidad para transformar conceptos abstractos en experiencias visuales impactantes ha sido clave en el éxito de numerosas campañas.",
+      "image": "/images/team/maria.jpg"
+    },
+    {
+      "name": "Carlos Martínez",
+      "position": "Director de Sostenibilidad",
+      "bio": "Especialista en materiales sostenibles y procesos eco-friendly, Carlos lidera nuestra iniciativa de marketing responsable, asegurando que todas nuestras campañas minimicen su impacto ambiental sin comprometer su efectividad.",
+      "image": "/images/team/carlos.jpg"
+    },
+    {
+      "name": "Laura Sánchez",
+      "position": "Directora de Estrategia Digital",
+      "bio": "Con experiencia en agencias digitales de primer nivel, Laura es responsable de la integración de elementos digitales en nuestras campañas offline, creando experiencias omnicanal coherentes y medibles.",
+      "image": "/images/team/laura.jpg"
+    }
+  ],
+  "clients": {
+    "description": "Trabajamos con marcas líderes en diversos sectores, desde retail y hostelería hasta tecnología y servicios financieros. Nuestros clientes valoran nuestro enfoque estratégico, creatividad y capacidad para entregar resultados medibles.",
+    "testimonials": [
+      {
+        "quote": "BrightCalle transformó nuestra visión en una campaña que superó todas nuestras expectativas. Su enfoque estratégico y creatividad nos ayudaron a destacar en un mercado altamente competitivo.",
+        "author": "Director de Marketing, Empresa de Telecomunicaciones"
+      },
+      {
+        "quote": "La capacidad de BrightCalle para integrar elementos físicos y digitales en una experiencia coherente fue clave para el éxito de nuestra campaña de lanzamiento.",
+        "author": "CEO, Startup de Tecnología"
+      },
+      {
+        "quote": "Valoramos especialmente su compromiso con la sostenibilidad y su capacidad para implementar soluciones eco-friendly sin comprometer el impacto visual de nuestras campañas.",
+        "author": "Directora de Comunicación, Cadena de Retail"
+      }
+    ]
+  }
+}

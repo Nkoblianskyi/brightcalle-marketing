@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "68%",
+    "description": "de los consumidores recuerdan haber visto publicidad exterior en la última semana, superando a otros medios tradicionales.",
+    "source": "Estudio de Efectividad Publicitaria 2025",
+    "icon": "trending-up"
+  },
+  {
+    "id": 2,
+    "title": "4.5x",
+    "description": "mayor es la probabilidad de que los consumidores busquen online una marca después de ver su publicidad exterior.",
+    "source": "Informe de Integración Omnicanal 2024",
+    "icon": "users"
+  },
+  {
+    "id": 3,
+    "title": "38%",
+    "description": "de aumento en la efectividad de las campañas cuando se combina publicidad exterior con estrategias digitales.",
+    "source": "Análisis de Campañas Integradas 2025",
+    "icon": "globe"
+  },
+  {
+    "id": 4,
+    "title": "72%",
+    "description": "de los consumidores afirma que la publicidad exterior es el medio que menos les molesta, frente a otros formatos intrusivos.",
+    "source": "Estudio de Percepción Publicitaria 2024",
+    "icon": "thumbs-up"
+  },
+  {
+    "id": 5,
+    "title": "23%",
+    "description": "de incremento en el recuerdo de marca cuando se utilizan elementos interactivos en publicidad exterior.",
+    "source": "Investigación sobre Engagement Publicitario 2025",
+    "icon": "zap"
+  },
+  {
+    "id": 6,
+    "title": "3.2x",
+    "description": "mayor ROI en campañas que integran publicidad exterior con activaciones en redes sociales.",
+    "source": "Análisis de Retorno de Inversión Publicitaria 2024",
+    "icon": "dollar-sign"
+  }
+]
