@@ -7,6 +7,7 @@ import Footer from "@/components/Footer"
 import CookieConsent from "@/components/CookieConsent"
 import { ThemeProvider } from "@/components/theme-provider"
 import ScrollToTop from "@/components/ScrollToTop"
+import { Suspense } from "react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
   },
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -42,7 +43,9 @@ export default function RootLayout({
     <html lang="es" className={`${inter.variable} ${montserrat.variable}`}>
       <body className="min-h-screen flex flex-col">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <ScrollToTop />
+          <Suspense  fallback={null}>
+            <ScrollToTop />
+          </Suspense>
           <Header />
           <main className="flex-grow relative">{children}</main>
           <Footer />

@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import ServiceHero from "@/components/services/ServiceHero"
 import ServicesList from "@/components/services/ServicesList"
 import ServiceProcess from "@/components/services/ServiceProcess"
@@ -11,10 +12,14 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <>
-      <ServiceHero />
-      <ServicesList />
-      <ServiceProcess />
-      <ServiceCTA />
+      <Suspense fallback={<div>Loading services...</div>}>
+        <ServiceHero />
+
+        <ServicesList />
+
+        <ServiceProcess />
+        <ServiceCTA />
+      </Suspense>
     </>
   )
 }

@@ -11,21 +11,6 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const service = services.find((service) => service.slug === params.slug)
-
-  if (!service) {
-    return {
-      title: "Servicio no encontrado - BrightCalle Marketing",
-      description: "El servicio que estás buscando no existe.",
-    }
-  }
-
-  return {
-    title: `${service.title} - BrightCalle Marketing`,
-    description: service.fullDescription,
-  }
-}
 
 export default function ServicePage({ params }: { params: { slug: string } }) {
   const service = services.find((service) => service.slug === params.slug)
