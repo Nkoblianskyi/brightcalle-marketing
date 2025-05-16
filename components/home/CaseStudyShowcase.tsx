@@ -41,7 +41,7 @@ const caseStudies = [
     category: "Publicidad Exterior",
     description:
       "Realizamos una transformación completa de la estación de Sol en Madrid para el lanzamiento de una nueva serie de una plataforma de streaming.",
-    results: ["2M+ interacciones en redes", "42% aumento en suscripciones", "300.000€ en cobertura mediática"],
+    results: ["2M+ interacciones en redes", "42% aumento en suscripciones"],
     image: "/6be3eaa9b76631aacfa901b8e94cee3a.jpg",
     color: "#8338EC",
   },

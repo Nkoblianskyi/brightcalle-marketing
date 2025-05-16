@@ -1,6 +1,5 @@
 import ProjectsHero from "@/components/projects/ProjectsHero"
 import ProjectsGrid from "@/components/projects/ProjectsGrid"
-import ProjectsCategories from "@/components/projects/ProjectsCategories"
 import ProjectsCTA from "@/components/projects/ProjectsCTA"
 
 export const metadata = {
@@ -12,7 +11,6 @@ export default function ProjectsPage() {
   return (
     <>
       <ProjectsHero />
-      <ProjectsCategories />
       <ProjectsGrid />
       <ProjectsCTA />
     </>
