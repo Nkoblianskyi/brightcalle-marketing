@@ -34,7 +34,7 @@ export default function AboutCTA() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-black font-medium text-lg px-8 py-6"
+              className="border-white text-black hover:bg-white hover:text-black font-medium text-lg px-8 py-6"
             >
               <Link href="/services" className="flex items-center">
                 Ver Nuestros Servicios <ArrowRight className="ml-2 h-5 w-5" />
