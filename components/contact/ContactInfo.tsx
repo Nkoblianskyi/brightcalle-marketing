@@ -42,23 +42,6 @@ export default function ContactInfo() {
             </div>
           </div>
         </div>
-
-        <div className="mt-8">
-          <h3 className="font-bold mb-4">Encuéntranos</h3>
-          <div className="aspect-video relative rounded-lg overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.0608860614!2d-3.6883238!3d40.4256269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sCalle%20de%20Serrano%2C%2055%2C%2028006%20Madrid!5e0!3m2!1sen!2ses!4v1652956153412!5m2!1sen!2ses"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de BrightCalle Marketing"
-              className="absolute inset-0"
-            />
-          </div>
-        </div>
       </CardContent>
     </Card>
   )
